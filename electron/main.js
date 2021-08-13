@@ -22,7 +22,7 @@ function createWindow() {
     })
 
     mainWindow = new BrowserWindow({
-        width: 800, height: 600, kiosk: true, webPreferences: {
+        width: 800, height: 600, kiosk: false, webPreferences: {
             preload: path.join(__dirname, 'preload.js'),
             contextIsolation: false
         }
