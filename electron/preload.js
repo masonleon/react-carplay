@@ -1,3 +1,4 @@
-console.log("running preload")
 const { ipcRenderer } = require('electron');
+
+console.log("running preload");
 window.ipcRenderer = ipcRenderer;
